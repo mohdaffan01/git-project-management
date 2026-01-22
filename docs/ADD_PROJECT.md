@@ -9,31 +9,24 @@ This guide explains how to add a newly created project to GitHub.
 
 ### Step 1: Open the root repository folder
 Open the folder that is already connected to GitHub.
-
-### Step 2: Add the project inside the root folder
+### Step 2: Add the project inside the root folder if any root folder
 Create or copy your project folder inside the root repository.
-
 ### Step 3: Make sure unnecessary files are ignored
 Check that `.gitignore` exists and includes files like:
+```
 node_modules
 dist
 build
 .env
-
+```
 ### Step 4: Add files to Git
-Run this command inside the root repository folder:
-
 ### Step 5: Commit the project
-Save the changes with a commit message:
-
-
-Step 6: Push the project to GitHub
-
-Upload the project to GitHub:
+### Step 6: Push the project to GitHub
 
 
 
-### commands for 1st time to add on github
+
+### Commands for 1st time to add on github
 ```
 git init
 git add .

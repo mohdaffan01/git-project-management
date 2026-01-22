@@ -6,7 +6,7 @@
 
 # ---Managing Multiple Projects in One Repository---
 
-```md
+
 # Root Repository Structure
 
 A single repository can contain multiple projects.
