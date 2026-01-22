@@ -30,7 +30,8 @@ Make changes only related to your assigned task.
 ### Step 4: Add and commit changes
 Save your work with a clear commit message.
 
-```git add .
+```
+git add .
 git commit -m "Added new feature"
 ```
 

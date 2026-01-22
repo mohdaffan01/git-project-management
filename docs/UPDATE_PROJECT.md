@@ -1,12 +1,7 @@
 
-
-
----
-
-
 # --- How to Update an Existing Project ---
 
-```md
+
 # How to Update an Existing Project
 
 ## Steps
