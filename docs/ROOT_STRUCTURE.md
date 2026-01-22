@@ -13,7 +13,7 @@ A single repository can contain multiple projects.
 
 ## Recommended Structure
 
-
+```
 root-repo/
 ├── project-one/
 ├── project-two/
@@ -21,7 +21,7 @@ root-repo/
 ├── docs/
 └── .gitignore
 
-
+```
 ## .gitignore (Example)
 **/node_modules
 **/dist
