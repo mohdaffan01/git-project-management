@@ -1,63 +1,30 @@
-
-
-
-
-# Team and Collaboration Guide
-
-This guide explains how multiple people should work together on the same repository.
-
-## Steps
-
-### Step 1: Clone the repository
-Each team member should clone the repository to their system.
-
-```git clone <repository-url>```
-
----
-
-### Step 2: Create a new branch
-Create a separate branch before starting work.
-
-```git checkout -b feature-branch```
-
----
-
-### Step 3: Work on your task
-Make changes only related to your assigned task.
-
----
-
-### Step 4: Add and commit changes
-Save your work with a clear commit message.
-
+# Git Collaboration Workflow
+ 
+## Main User Setup
+1. Create project folder → push to GitHub
+2. Go to **Settings → Collaborators** → add username
+ 
+## Collaborator Setup
+1. Accept email invite from GitHub
+2. Clone the repo
+3. Create a new branch *(important)*
+4. Write code → commit → push branch:
+```bash
+git push -u origin <branch-name>
 ```
-git add .
-git commit -m "Added new feature"
+ 
+## Merger (Main User) — Fetch & Merge
+```bash
+git fetch                   # get collaborator's branch
+git switch <branch-name>    # switch to their branch
+git merge                   # merge into main
+git push                    # push merged code to GitHub
 ```
-
----
-
-### Step 5: Push your branch to GitHub
-Upload your branch to GitHub.
-
-```git push origin feature-branch
+ 
+> After push, notify the collaborator to sync:
+```bash
+git fetch
+git pull origin main
 ```
-
----
-
-### Step 6: Create a Pull Request
-Open GitHub and create a Pull Request to merge your branch into `main`.
-
----
-
-### Basic Collaboration Rules
-- Do not work directly on the `main` branch
-- One task = one branch
-- Write clear commit messages
-- Review code before merging
-
-
-
-
 
 
